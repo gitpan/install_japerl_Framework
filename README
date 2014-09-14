@@ -1,0 +1,38 @@
+NAME
+
+  install_japerl_Framework.bat - japerl_Framework installer for Microsoft Windows
+
+SYNOPSIS
+
+  C:\WINDOWS> install_japerl_Framework.bat [Enter]
+
+  Edit and confirm "japerl.bat.conf.EditMe", then save as "japerl.bat.conf"
+
+DESCRIPTION
+
+  install_japerl_Framework.bat provides japerl_Framework environment to your
+  local directory. This software is for Microsoft Windows.
+
+  The following software will be installed by install_japerl_Framework.bat
+  - japerl.bat
+  - jacode.pl
+  - Any one of Sjis software family (ex. Sjis)
+  - Strict::Perl
+  - Stable::Module
+
+  If encoding is Sjis, the following software too
+  - SjisTk
+  - DBD::mysqlPPrawSjis
+
+  If perl is older than 5.006, the following software too
+  - Modern::Open
+  - Fake::Our
+
+SEE ALSO
+
+  ina - CPAN
+  http://search.cpan.org/~ina/
+
+  BackPAN - A Complete History of CPAN
+  http://backpan.perl.org/authors/id/I/IN/INA/
+
